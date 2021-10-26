@@ -1,0 +1,61 @@
+nav {
+  background: #eee;
+  display: flex;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    background-color: darkgray;
+  }
+}
+
+.load-active {
+  background-color: lightgray;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px #04AA6D;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 20%;
+}
+
+button{
+  width: 100%;
+}
+
+td{
+  padding: 5px;
+}
+
+tr:hover {
+  background-color: rgb(150, 150, 141);
+}
+
+th {
+  padding: 7px;
+  background-color: #04AA6D;
+  color: white;
+}
+
+input[type=text]{
+  width: 10%;
+  padding: 3px;
+}
+
+input[type=text]:focus {
+  width: 10%;
+  padding: 3px;
+  outline: none;
+  border: 2px solid #555;
+}
+
+
+

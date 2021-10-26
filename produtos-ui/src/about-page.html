@@ -1,0 +1,12 @@
+<h1 if.bind="!produto.id">Inserir Produto</h1>
+<h1 else>Alterar Produto</h1>
+
+<form submit.trigger="guardar()">
+    <label>Nome:</label><br>
+    <input type = "text" id = "nome" value.bind="produto.nome"><p>
+    <label>Quantidade:</label><br>
+    <input type = "text" id = "quantidade" value.bind="produto.quantidade"><p>  
+    <label>Valor:</label><br>
+    <input type = "text" id = "valor" value.bind="produto.valor"><p> 
+    <input type = "submit" value = "Guardar" > 
+</form>
